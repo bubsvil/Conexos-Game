@@ -1,0 +1,236 @@
+/* HEADER */
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
+.menu-home { 
+    background-color: black; 
+    display: flex; 
+    flex-direction: row;
+}   
+
+.menu-home img {
+    width: 250px; 
+    height: 70px;
+}
+
+.menu-home a {
+    color: #FFC214; 
+    text-decoration: none;  
+    border: 3px; 
+    border-radius: 30px; 
+    border-color: white; 
+    font-family: 'ArcadeClassic', sans-serif; 
+    font-size: 20px;
+} 
+
+.menu-home ul { 
+    display: flex; 
+    flex-direction: row;   
+    gap: 30px; 
+    align-items: center;  
+    margin-left: 700px; 
+}   
+
+/* HOME */ 
+
+.fundo-home {
+    position: relative;
+    width: 1240px; 
+    height: 700px;
+} 
+
+/* LOGIN */ 
+
+input {
+    border-radius: 60px; 
+    padding: 10px;
+} 
+
+.menu-login {
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center; 
+    justify-items: center;  
+    margin-top: 200px;  
+    margin-left: 500px;
+    position: absolute; 
+    top: 100px;
+    left: 0;
+} 
+
+.fundo-login { 
+    position: relative; 
+    width: 1240px; 
+    height: 700px;
+}
+
+.login-user { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+} 
+
+.login-senha { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+} 
+
+.login-email {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+} 
+
+.login-player { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+
+button {
+    background-color: #545454;  
+    color:#FFC214;
+    border-radius: 70px;  
+    border-color: white;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    margin-left: 130px;
+    margin-top: 10px; 
+    padding: 5px;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+/* CADASTRO */
+
+.menu-cadastro { 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center; 
+    justify-items: center;  
+    margin-top: 200px;  
+    margin-left: 500px;
+    position: absolute; 
+    top: 1px;
+    left: 0;
+}
+
+/* PLAYER */  
+
+.menu-player { 
+    background-color: black; 
+    width: 250px; 
+    height: 300px; 
+    border: 1px; 
+    border-radius: 10%; 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    justify-items: center; 
+    margin-left: 500px; 
+    margin-top: 25px; 
+    position: absolute; 
+    top: 180px;
+    left: 0;
+}  
+
+.fundo-player {
+    position: relative; 
+    width: 1240px; 
+    height: 700px;
+}
+
+.espada-amarela {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+} 
+
+.trofeu { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+} 
+
+.raio { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+
+.menu-player h2 {
+    color: #F7831A; 
+    font-size: 20px;
+    font-family: 'ArcadeClassic', sans-serif;
+} 
+
+.menu-player p {
+    color:#FFC214 ; 
+    font-size: 15px;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+/* RANKING */ 
+.menu-ranking {
+    background-color: black; 
+    width: 250px; 
+    height: 350px; 
+    border: 1px; 
+    border-radius: 10%; 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    justify-items: center; 
+    margin-left: 500px; 
+    margin-top: 25px; 
+    position: absolute; 
+    top: 180px;
+    left: 0; 
+}
+
+.menu-ranking h2 {
+    color: #F7831A; 
+    font-size: 20px;
+    font-family: 'ArcadeClassic', sans-serif;
+} 
+
+.menu-ranking p {
+    color:#FFC214 ; 
+    font-size: 15px;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+.menu-ranking h3 { 
+    color: #F7831A; 
+    font-family: 'ArcadeClassic', sans-serif; 
+    font-size: 40px;
+}
+
+/* FOOTER */
+
+footer { 
+    position: absolute;
+    display: flex;
+    text-align: center;  
+    align-items: center; 
+    justify-content: center;
+}
+
+.footer {
+    background-color: black; 
+    width: 1240px;  
+    height: 70px; 
+    align-items: center;
+} 
+
+.footer p {
+    color: #FFC214;  
+    text-align: center;  
+    align-items: center; 
+    margin: 0px;  
+    font-family: sans-serif;
+}
