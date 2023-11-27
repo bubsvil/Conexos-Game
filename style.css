@@ -1,10 +1,21 @@
 /* HEADER */
 @import url('https://fonts.cdnfonts.com/css/arcade-classic');
 
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .menu-home { 
     background-color: black; 
+    width: 1240px; 
     display: flex; 
     flex-direction: row;
+    text-decoration: none;
 }   
 
 .menu-home img {
@@ -15,11 +26,8 @@
 .menu-home a {
     color: #FFC214; 
     text-decoration: none;  
-    border: 3px; 
-    border-radius: 30px; 
-    border-color: white; 
     font-family: 'ArcadeClassic', sans-serif; 
-    font-size: 20px;
+    font-size: 25px; 
 } 
 
 .menu-home ul { 
@@ -27,8 +35,10 @@
     flex-direction: row;   
     gap: 30px; 
     align-items: center;  
-    margin-left: 700px; 
-}   
+    margin-left: 650px; 
+    margin-top: 10px;
+    list-style: none;
+}    
 
 /* HOME */ 
 
@@ -46,7 +56,7 @@ input {
     margin-top: 20px;
 } 
 
-.menu-login {
+.menu-login { 
     display: flex; 
     align-items: center; 
     flex-direction: column; 
@@ -68,8 +78,6 @@ input {
 .button-login button {
     background-color: black;  
     color:#FFC214;
-    border-radius: 70px;  
-    border-color: white;  
     display: flex; 
     justify-content: center;
     align-items: center;   
@@ -94,11 +102,9 @@ input {
     left: 0;
 }
 
-.button-cadastro button {
+.button-cadastro button { 
     background-color: black;
     color: #FFC214;
-    border-radius: 70px;
-    border-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +118,6 @@ input {
 
 .menu-player { 
     background-color: black; 
-    opacity: 0.7;
     width: 250px; 
     height: 300px; 
     border: 1px; 
@@ -125,7 +130,7 @@ input {
     margin-left: 600px; 
     margin-top: 25px; 
     position: absolute; 
-    top: 180px;
+    top: 250px;
     left: 0;
 }  
 
@@ -144,7 +149,7 @@ input {
 .estrela { 
     display: flex; 
     flex-direction: row; 
-    align-items: center;
+    align-items: center; 
 } 
 
 .flecha { 
@@ -169,9 +174,8 @@ input {
 
 .menu-ranking {
     background-color: black; 
-    opacity: 0.7;
     width: 250px; 
-    height: 450px; 
+    height: 350px; 
     border: 1px; 
     border-radius: 10%; 
     align-items: center; 
@@ -179,10 +183,10 @@ input {
     flex-direction: column; 
     justify-content: center; 
     justify-items: center; 
-    margin-left: 600px; 
+    margin-left: 608px; 
     margin-top: 5px; 
     position: absolute; 
-    top: 180px;
+    top: 220px;
     left: 0; 
 }
 
@@ -212,19 +216,9 @@ footer {
     text-align: center;  
     align-items: center; 
     justify-content: center;
+    background-color: black;  
+    width: 1240px; 
+    color: #FFC214;
 }
 
-.footer {
-    background-color: black; 
-    width: 1240px;  
-    height: 70px; 
-    align-items: center;
-} 
 
-.footer p {
-    color: #FFC214;  
-    text-align: center;  
-    align-items: center; 
-    margin: 0px;  
-    font-family: sans-serif;
-}
