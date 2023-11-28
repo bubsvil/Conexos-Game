@@ -38,34 +38,30 @@
         <form>
             <div class="login-user">
                 <div class="card-body">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Insira seu nome completo">
+                    <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Insira seu nome completo" required>
                 </div>
             </div>
 
             <div class="login-email">
                 <div class="card-body">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Insira o e-mail">
+                    <input type="email" id="email" name="email" placeholder="Insira o e-mail" required>
                 </div>
             </div>
 
             <div class="login-player">
-                <div class="card-body">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Insira um nome de usuário">
+                <div class="card-body"> 
+                    <input type="text" id="nickName" name="nickName" placeholder="Insira um nome de usuário" required>
                 </div>
             </div>
 
             <div class="login-senha">
-                <div class="card-body">
-                    <input type="password" class="form-control" id="exampleInputPassword1"
-                        placeholder="Insira uma senha">
+                <div class="card-body"> 
+                    <input type="password" id="senha" name="senha" placeholder="Insira uma senha" required>
                 </div>
             </div>
 
             <div class="button-cadastro">
-                <button type="button" class="btn btn-outline-dark">CADASTRAR</button>
+                <button type="button" class="btn btn-outline-dark" onclick="enviarDados()">CADASTRAR</button>
             </div>
 
         </form>
@@ -83,8 +79,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> 
 
+        <!-- INTEGRAÇÃO POST -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="JavaScript/form.js"></script>
 
 </body>
 

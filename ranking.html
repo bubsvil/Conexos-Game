@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -37,26 +37,26 @@
     <h3>RANKING</h3>
 
 <div class="estrela"> 
-    <img src="imagens/icons/1-estrela.svg" width="80" height="70" class="img-fluid rounded-start" alt="trofeu amarelo">
+    <img src="imagens/icons/1-estrela.svg" width="80" height="70" class="img-fluid rounded-start" alt="uma estrela amarela">
     <div class="card-body">
       <h2 class="card-title">Player</h2>
-      <p class="card-text">000000</p> 
+      <p class="card-text" id="primeiroLugar">000000</p> 
     </div>
 </div>  
 
 <div class="estrela"> 
-    <img src="imagens/icons/2-estrelas.svg" width="80" height="70" class="img-fluid rounded-start" alt="trofeu amarelo">
+    <img src="imagens/icons/2-estrelas.svg" width="80" height="70" class="img-fluid rounded-start" alt="duas estrelas amarelas alinhadas verticalmente">
     <div class="card-body">
       <h2 class="card-title">Player</h2>
-      <p class="card-text">000000</p> 
+      <p class="card-text" id="segundoLugar">000000</p> 
     </div>
 </div>  
 
 <div class="estrela"> 
-    <img src="imagens/icons/3-estrelas.svg" width="80" height="70" class="img-fluid rounded-start" alt="trofeu amarelo">
+    <img src="imagens/icons/3-estrelas.svg" width="80" height="70" class="img-fluid rounded-start" alt="uma estrela amarela no meio e duas estrelas amarelas em baixo alinhadas verticalmente">
     <div class="card-body">
       <h2 class="card-title">Player</h2>
-      <p class="card-text">000000</p> 
+      <p class="card-text" id="terceiroLugar">000000</p> 
     </div>
 </div>  
 
@@ -75,6 +75,8 @@
   integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
   crossorigin="anonymous"></script>  
 
-
+<!-- INTEGRAÇÃO GET --> 
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="JavaScript/ranking.js"></script>
 </body>
 </html>

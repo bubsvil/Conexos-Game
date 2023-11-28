@@ -19,7 +19,7 @@
                         alt="Logo Conexos" class="logo-header"></a>
                
                     <ul>
-                        <li> <a href="ranking.html">RANKING</a> </li>
+                        <li> <a href="player.html">PLAYER</a> </li>
                         <li> <a href="off.html">OFF</a> </li>
                     </ul>
 
@@ -29,40 +29,37 @@
 </header>   
 
 <div class="fundo-player">
-    <img src="imagens/fundo-player.webp" width="1240px" height="700px" alt="cavaleiro medieval segurando espada com castelo em chamas no fundo">
+    <img src="imagens/fundo-player.webp" width="1240px" height="700px"
+        alt="cavaleiro medieval segurando espada com castelo em chamas no fundo">
 </div>
 
-<div class="menu-player" style="background-color: rgba(0, 0, 0, 0.703)"> 
+<div class="menu-configuracao" style="background-color: rgba(0, 0, 0, 0.703)">
 
-    <div class="espada">
-        <img src="imagens/icons/espada.svg" width="80" height="70" class="img-fluid rounded-start" alt="espada-amarela">
-        <div class="card-body">
-          <h2 class="card-title">Player</h2>
-          <p class="card-text" id="nomeUsuario">xxxxxxx</p>
+    <form id="updateForm">
+
+        <div class="espada-conf">
+            <img src="imagens/icons/espada.svg" width="40" height="30" class="img-fluid rounded-start"
+                alt="espada-amarela">
+            <input type="text" id="username" name="username" placeholder="Insira novo user" required>
         </div>
-    </div> 
 
-    <div class="estrela"> 
-        <img src="imagens/icons/1-estrela.svg" width="80" height="70" class="img-fluid rounded-start" alt="trofeu amarelo">
-        <div class="card-body">
-          <h2 class="card-title">Ranking</h2>
-          <p class="card-text" id="pontuacaoUsuario">000000</p> 
-          <p class="card-text">0°</p> 
+        <div class="flecha-conf">
+            <img src="imagens/icons/flecha.svg" width="40" height="30" class="img-fluid rounded-start"
+                alt="trofeu amarelo">
+            <input type="email" id="email" name="email" placeholder="Insira novo e-mail" required>
         </div>
-    </div> 
 
-    <div class="flecha">
-        <img src="imagens/icons/flecha.svg" width="80" height="70" class="img-fluid rounded-start" alt="trofeu amarelo">
-        <div class="card-body">
-          <h2 class="card-title">E-mail</h2>
-          <p class="card-text" id="emailUsuario">xxxxx@</p> 
+        <div class="cadeado-conf">
+            <img src="imagens/icons/cadeado.svg" width="40" height="30" class="img-fluid rounded-start"
+                alt="trofeu amarelo">
+            <input type="password" id="password" name="password" placeholder="Insira nova senha" required>
         </div>
-    </div> 
 
-    <div class="configuracao">
-        <a href="configuracao.html" class="configuração"><img src="imagens/icons/configuração.svg" width="40" height="30" class="img-fluid rounded-start" alt="trofeu amarelo">
-    </div>
-    
+        <div class="button-configuracao">
+            <button type="button" class="btn btn-outline-dark" onclick="atualizarUsuario()">Atualizar</button>
+        </div>
+
+    </form>
 </div>
 
 
@@ -78,8 +75,9 @@
   integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
   crossorigin="anonymous"></script>  
 
-  <!-- INTEGRAÇÃO GET -->
+  <!-- INTEGRAÇÃO PUT -->
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="JavaScript/player.js"></script>
+    <script src="JavaScript/atualiza.js"></script>
+
 </body> 
 </html>

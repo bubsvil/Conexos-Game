@@ -50,12 +50,6 @@ body {
 
 /* LOGIN */ 
 
-input {
-    border-radius: 60px; 
-    padding: 10px; 
-    margin-top: 20px;
-} 
-
 .menu-login { 
     display: flex; 
     align-items: center; 
@@ -77,7 +71,13 @@ input {
     position: relative; 
     width: 1240px; 
     height: 700px;
-}
+} 
+
+.menu-login input {
+    border-radius: 60px;  
+    padding: 10px; 
+    margin-top: 20px;
+} 
 
 .button-login button { 
     color:#FFC214; 
@@ -102,12 +102,18 @@ input {
     margin-top: 200px;  
     margin-left: 500px; 
     width: 250px; 
-    height: 300px; 
+    height: 350px; 
     border: 1px; 
     border-radius: 10%; 
     position: absolute; 
     top: 1px;
     left: 0;
+} 
+
+.menu-cadastro input {
+    border-radius: 60px;  
+    padding: 10px; 
+    margin-top: 20px;
 }
 
 .button-cadastro button { 
@@ -126,7 +132,7 @@ input {
 
 .menu-player { 
     width: 250px; 
-    height: 300px; 
+    height: 320px; 
     border: 1px; 
     border-radius: 10%; 
     align-items: center; 
@@ -165,6 +171,12 @@ input {
     align-items: center;
 }
 
+.configuracao {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+
 .menu-player h2 {
     color: #F7831A; 
     font-size: 20px;
@@ -174,6 +186,61 @@ input {
 .menu-player p {
     color:#FFC214 ; 
     font-size: 15px;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+/* CONFIGURAÇÃO */
+
+.menu-configuracao {
+    width: 300px; 
+    height: 280px; 
+    border: 1px; 
+    border-radius: 10%; 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    justify-items: center; 
+    margin-left: 580px; 
+    margin-top: 50px; 
+    position: absolute; 
+    top: 250px;
+    left: 0;
+}  
+
+.menu-configuracao input {
+    border-radius: 60px;  
+    padding: 10px; 
+    margin-top: 15px;
+}
+
+.espada-conf {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+} 
+
+.flecha-conf { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.cadeado-conf { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+} 
+
+
+.button-configuracao button {
+    color: #FFC214; 
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 5px;
     font-family: 'ArcadeClassic', sans-serif;
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
@@ -35,19 +35,19 @@
 
 <form>
     <div class="login-user">
-        <div class="card-body">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User ou E-mail">
+        <div class="card-body"> 
+            <input type="text" id="usuario" name="usuario" placeholder="User ou E-mail" required>
         </div>
     </div>   
 
     <div class="login-senha">
-        <div class="card-body">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        <div class="card-body"> 
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
         </div>
     </div>   
 
     <div class="button-login">
-        <button type="button" class="btn btn-outline-dark">ENTRAR</button>
+        <button type="button" class="btn btn-outline-dark" onclick="autenticarUsuario()">ENTRAR</button>
     </div>
    
 </form>
@@ -67,6 +67,9 @@
   integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
   crossorigin="anonymous"></script>  
 
+  <!-- INTEGRAÇÃO GET -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="JavaScript/login.js"></script>
 
 </body> 
 </html>
