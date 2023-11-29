@@ -20,7 +20,6 @@ body {
   justify-content: space-between;
 }
 
-
 .menu-home a {
   color: #ffc214;
   text-decoration: none;
@@ -145,7 +144,7 @@ body {
 /* PLAYER */
 
 .body-content {
-    margin-bottom: 1000px;
+  margin-bottom: 1000px;
 }
 
 .estrela {
@@ -239,7 +238,7 @@ body {
   width: 45%;
   height: 65%;
   border: 1px;
-  border-radius: 10%;
+  border-radius: 55px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -247,19 +246,17 @@ body {
   justify-items: center;
   background-color: rgba(0, 0, 0, 0.703);
   font-family: "ArcadeClassic", sans-serif;
-margin-top: 15%;
-margin-left: 28%;
+  margin-top: 15%;
+  margin-left: 28%;
 }
 
 .menu-ranking h2,
 h3 {
-  z-index: 1;
   color: #f7831a;
   font-size: 55px;
 }
 
 .menu-ranking p {
-  z-index: 1;
   color: #ffc214;
   font-size: 25px;
 }
@@ -278,11 +275,10 @@ footer {
 /* RESPONSIVIDADE */
 
 @media (max-width: 900px) {
-
-    .menu-ranking {
-        width: 60%;
-        margin-left: 20%;
-      }
+  .menu-ranking {
+    width: 60%;
+    margin-left: 20%;
+  }
 }
 
 @media (max-width: 510px) {
@@ -304,5 +300,22 @@ footer {
   .logo-header {
     width: 100%;
     height: 55%;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-ranking h2 {
+    font-size: 35px;
+  }
+  
+  .menu-ranking h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .menu-ranking {
+    width: 80%;
+    margin-left: 10%;
   }
 }
