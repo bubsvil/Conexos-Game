@@ -1,14 +1,14 @@
 /* HEADER */
-@import url('https://fonts.cdnfonts.com/css/arcade-classic');
 
 * {
     box-sizing: border-box;
-} 
+}  
+
 
 body {
     margin: 0;
     padding: 0;
-}
+} 
 
 .menu-home { 
     background-color: black; 
@@ -21,12 +21,13 @@ body {
 .menu-home img {
     width: 250px; 
     height: 70px;
+    margin-left: 40px;
 }
 
 .menu-home a {
     color: #FFC214; 
     text-decoration: none;  
-    font-family: 'ArcadeClassic', sans-serif; 
+    font-family: 'WeissRundgotischW01';
     font-size: 25px; 
 } 
 
@@ -44,8 +45,6 @@ body {
 
 .fundo-home {
     position: relative;
-    width: 1240px; 
-    height: 700px;
 } 
 
 /* LOGIN */ 
@@ -69,8 +68,8 @@ body {
 
 .fundo-login { 
     position: relative; 
-    width: 1240px; 
-    height: 700px;
+     width: auto;
+     height: auto;
 } 
 
 .menu-login input {
@@ -88,7 +87,7 @@ body {
     margin-left: 70px;
     margin-top: 10px; 
     padding: 5px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'WeissRundgotischW01';
 }
 
 /* CADASTRO */
@@ -122,10 +121,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 10px;
     padding: 5px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'WeissRundgotischW01';
 }
 
 /* PLAYER */  
@@ -135,22 +134,22 @@ body {
     height: 320px; 
     border: 1px; 
     border-radius: 10%; 
-    align-items: center; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    justify-items: center; 
-    margin-left: 600px; 
+    justify-items: center;
+    align-items: center; 
     margin-top: 25px; 
-    position: absolute; 
-    top: 250px;
+    margin-left: 598px;
+    position: absolute;  
+    top: 170px;
     left: 0;
 }  
 
 .fundo-player {
     position: relative; 
-    width: 1240px; 
-    height: 700px;
+    width: auto; 
+    height: auto;
 }
 
 .espada {
@@ -180,13 +179,13 @@ body {
 .menu-player h2 {
     color: #F7831A; 
     font-size: 20px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'WeissRundgotischW01';
 } 
 
 .menu-player p {
     color:#FFC214 ; 
     font-size: 15px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: sans-serif;
 }
 /* CONFIGURAÇÃO */
 
@@ -238,10 +237,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 30px;
     padding: 5px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'WeissRundgotischW01';
 }
 
 /* RANKING */  
@@ -266,18 +265,18 @@ body {
 .menu-ranking h2 {
     color: #F7831A; 
     font-size: 20px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'WeissRundgotischW01';
 } 
 
 .menu-ranking p {
     color:#FFC214 ; 
     font-size: 15px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: sans-serif;
 }
 
 .menu-ranking h3 { 
     color: #F7831A; 
-    font-family: 'ArcadeClassic', sans-serif; 
+    font-family: 'WeissRundgotischW01';
     font-size: 40px;
 }
 
