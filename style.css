@@ -59,6 +59,16 @@ body {
   background-image: url(imagens/fundo-player.webp);
   background-repeat: no-repeat;
   background-position: center;
+}  
+
+.menu-home { 
+  color:#FFC214; 
+}
+
+.icones-home { 
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
 }
 
 /* LOGIN */
@@ -245,7 +255,6 @@ body {
   justify-content: center;
   justify-items: center;
   background-color: rgba(0, 0, 0, 0.703);
-  font-family: "ArcadeClassic", sans-serif;
   margin-top: 15%;
   margin-left: 28%;
 }
