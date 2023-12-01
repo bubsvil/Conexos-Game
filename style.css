@@ -48,20 +48,6 @@ body {
   background-position: center;
 }
 
-.fundo-player {
-  position: relative;
-}
-
-.imagem {
-  position: absolute;
-  width: 100%;
-  height: 1000px;
-  background-size: cover;
-  background-image: url(imagens/fundo-player.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-}   
-
 .fundo-home{
   width: 100%;
   height: 86vh;
@@ -172,16 +158,48 @@ button.btn.btn-dark {
 }
 
 /* PLAYER */
+.fundo-player {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-image: url(imagens/fundo-player.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}   
+
+.fundo-player {
+  width: 100%;
+  height: 86vh;
+}
+
+.menu-player {
+  color:#FFC214;   
+  position: absolute;
+  bottom: 90px;
+  left: 0; 
+  margin-left: 30%;
+  width: 500px;
+  height: 390px;
+  border: 1px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;  
+ flex-direction: column;
+}
 
 .body-content {
   margin-bottom: 1000px;
 }
 
+.configuracao img {
+  width: 40px;
+  height: 30px;
+} 
+
 .estrela {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px;
 }
 
 .flecha {
