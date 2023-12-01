@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/arcade-classic");
 
+/*GERAL*/
 * {
   box-sizing: border-box;
 }
@@ -13,14 +14,14 @@ body {
 
 .menu-home {
   background-color: black;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: row;
   text-decoration: none;
   justify-content: space-between;
 }
 
-.menu-home a {
+.menu-home a, h3 {
     color: #FFC214; 
     text-decoration: none;  
     font-family: 'WeissRundgotischW01';
@@ -80,70 +81,63 @@ body {
 }
 /* LOGIN */
 
-.menu-login {
+.sec-login {
+  background-image: url('imagens/fundo-principal.webp');
+  background-size: cover;
+  background-position: center; 
+  height: 88vh;
+  text-align: center; 
+  /* padding: 20px;  */
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
-  justify-items: center;
-  margin-top: 200px;
-  margin-left: 500px;
-  width: 250px;
-  height: 200px;
-  border: 1px;
-  border-radius: 10%;
-  position: absolute;
-  top: 100px;
-  left: 0;
 }
 
-.fundo-login { 
-    position: relative; 
-     width: auto;
-     height: auto;
-} 
+.menu-login, .menu-cadastro {
+  width: 38vh;
+  border: 1px;
+  border-radius: 10%;
+}
 
-.menu-login input {
+.card-login {
+  display: grid;
+    place-items: center;
+
+}
+
+.img-login {
+  width: 100%;
+  height: 86vh;
+}
+
+.menu-login input, .form-login, .login-user {
   border-radius: 60px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
+  width: 36vh;
 }
 
 .button-login button { 
-    color:#FFC214; 
-    border-color: white;
-    display: flex; 
-    justify-content: center;
-    align-items: center;   
-    margin-left: 70px;
-    margin-top: 10px; 
-    padding: 5px;
-    font-family: 'WeissRundgotischW01';
+  color: #FFC214; 
+  border-color: white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;   
+  margin-top: 10px; 
+  padding: 5px;
+  width: 77px;
+  font-family: 'WeissRundgotischW01';
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* CADASTRO */
 
-.menu-cadastro {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  margin-top: 200px;
-  margin-left: 500px;
-  width: 250px;
-  height: 350px;
-  border: 1px;
-  border-radius: 10%;
-  position: absolute;
-  top: 1px;
-  left: 0;
-}
-
 .menu-cadastro input {
   border-radius: 60px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 13px;
+  width: 20rem;
 }
 
 .button-cadastro button { 
@@ -287,58 +281,14 @@ body {
 /* FOOTER */
 
 footer {
-  position: absolute;
   display: flex;
   justify-content: center;
   background-color: black;
-  width: 100%;
   color: #ffc214;
+  width: 100%;
+  height: auto;
+  position: absolute;
+bottom: 0;
+left: 0;
 }
 
-/* RESPONSIVIDADE */
-
-@media (max-width: 900px) {
-  .menu-ranking {
-    width: 60%;
-    margin-left: 20%;
-  }
-}
-
-@media (max-width: 510px) {
-  .menu-home {
-    display: block;
-    height: 225px;
-  }
-
-  .menu-home ul {
-    display: block;
-    margin: 0px;
-    font-size: 22px;
-  }
-
-  .menu-home a {
-    font-size: 32px;
-  }
-
-  .logo-header {
-    width: 100%;
-    height: 55%;
-  }
-}
-
-@media (max-width: 500px) {
-  .menu-ranking h2 {
-    font-size: 35px;
-  }
-  
-  .menu-ranking h3 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 380px) {
-  .menu-ranking {
-    width: 80%;
-    margin-left: 10%;
-  }
-}
