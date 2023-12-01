@@ -69,8 +69,15 @@ body {
   display: flex; 
   flex-direction: row;
   align-items: center;
+} 
+
+.jogo-1 {
+  background-size: contain;
 }
 
+.jogo-2 {
+  background-size: contain;
+}
 /* LOGIN */
 
 .menu-login {
