@@ -71,8 +71,8 @@ body {
   align-items: center;
 } 
 
-.jogo-1 {
-  background-size: contain;
+.jogo-1 img {
+: contain;
 }
 
 .jogo-2 {
