@@ -86,12 +86,11 @@ body {
   justify-content: center;
 }
 
-.menu-login {
+.menu-login, .menu-cadastro {
   width: 38vh;
   border: 1px;
   border-radius: 10%;
 }
-
 
 .card-login {
   display: grid;
@@ -126,23 +125,6 @@ body {
 }
 
 /* CADASTRO */
-
-.menu-cadastro {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  margin-top: 200px;
-  margin-left: 500px;
-  width: 250px;
-  height: 350px;
-  border: 1px;
-  border-radius: 10%;
-  position: absolute;
-  top: 1px;
-  left: 0;
-}
 
 .menu-cadastro input {
   border-radius: 60px;
