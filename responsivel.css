@@ -1,0 +1,77 @@
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .menu-ranking {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+
+  @media (max-width: 588px) {
+    footer {
+        height: auto;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .menu-ranking h2 {
+      font-size: 35px;
+    }
+    
+    .menu-ranking h3 {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 510px) {
+    .sec-login {
+        height: 84vh;
+    }
+
+    .menu-home {
+        display: flex;
+        align-items: center; 
+      }
+      
+      .menu-home ul {
+        margin-left: auto; 
+      }
+      
+      .menu-home ul li {
+        list-style: none; 
+        margin-left: 20px; 
+      }
+        
+    .menu-home a {
+      font-size: 32px;
+      width: auto;
+    }
+  
+    .logo-header {
+        width: 80%;
+        height: auto;
+    }
+
+  }
+  
+  @media (max-width: 380px) {
+    .menu-ranking {
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+
+
+
+  /* 
+  
+  
+  
+  
+  
+  
+  */
+
+  /* @media (max-width: 900px) {
+    
+  } */
