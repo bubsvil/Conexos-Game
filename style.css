@@ -103,7 +103,7 @@ body {
   height: 86vh;
 }
 
-.menu-login input, .form-login {
+.menu-login input, .form-login, .login-user {
   border-radius: 60px;
   padding: 10px;
   margin-top: 15px;
@@ -129,7 +129,8 @@ body {
 .menu-cadastro input {
   border-radius: 60px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 13px;
+  width: 20rem;
 }
 
 .button-cadastro button { 
