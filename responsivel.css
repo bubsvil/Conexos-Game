@@ -1,77 +1,162 @@
 /* RESPONSIVIDADE */
 
 @media (max-width: 900px) {
-    .menu-ranking {
-      width: 60%;
-      margin-left: 20%;
-    }
+  .menu-ranking {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .sec-login {
+    background-image: url(imagens/fundo-principal-sm.webp);
+    width: 100%;
   }
 
-  @media (max-width: 588px) {
-    footer {
-        height: auto;
-    }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 1px;
   }
 
-  @media (max-width: 500px) {
-    .menu-ranking h2 {
-      font-size: 35px;
-    }
-    
-    .menu-ranking h3 {
-      font-size: 40px;
-    }
+
+  .button-login button {
+    width: 16rem;
+    font-size: 1.6rem;
   }
+
+  .menu-login {
+    width: 39vh;
+    height: 29vh;
+  }
+
+  .menu-home a,
+  h3 {
+    font-size: 43px;
+  }
+
+  .menu-home {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .menu-home {
+    width: 100%;
+    height: 72px;
+  }
+
+
+
+
+
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 588px) {
+  footer {
+    height: auto;
+    font-size: 0.8rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 510px) {
+  .sec-login {
+    height: 84vh;
+  }
+
+  .menu-home {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-home ul {
+    margin-left: auto;
+  }
+
+  .menu-home ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  .menu-home a {
+    font-size: 32px;
+    width: auto;
+  }
+
+  .logo-header {
+    width: 80%;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .menu-ranking h2 {
+    font-size: 35px;
+  }
+
+  .menu-ranking h3 {
+    font-size: 40px;
+  }
+
+  .menu-home {
+    height: 55px;
+}
+
+.sec-login {
+  height: 94vh;
+}
+
+.p-3 {
+  font-size: 1rem;
+}
+
+}
+
+@media (max-width: 400px) {
+  .menu-login {
+    width: 35vh;
+    height: 30vh;
+}
+
+.menu-login input, .form-login {
+  width: 33vh;
+}
+
+}
+
+@media (max-width: 380px) {
+  .menu-ranking {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .sec-login {
+    height: 79vh;
+  }
+
+
+
+}
+
+
+
+/* 
   
-  @media (max-width: 510px) {
-    .sec-login {
-        height: 84vh;
-    }
+  6a89471
 
-    .menu-home {
-        display: flex;
-        align-items: center; 
-      }
-      
-      .menu-home ul {
-        margin-left: auto; 
-      }
-      
-      .menu-home ul li {
-        list-style: none; 
-        margin-left: 20px; 
-      }
-        
-    .menu-home a {
-      font-size: 32px;
-      width: auto;
-    }
-  
-    .logo-header {
-        width: 80%;
-        height: auto;
-    }
-
-  }
-  
-  @media (max-width: 380px) {
-    .menu-ranking {
-      width: 80%;
-      margin-left: 10%;
-    }
-  }
-
-
-
-  /* 
-  
-  af59c63
   
   
   
   
   */
 
-  /* @media (max-width: 900px) {
+/* @media (max-width: 900px) {
     
   } */

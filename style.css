@@ -14,7 +14,7 @@ body {
 
 .menu-home {
   background-color: black;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: row;
   text-decoration: none;
@@ -80,7 +80,7 @@ body {
   background-position: center; 
   height: 88vh;
   text-align: center; 
-  padding: 20px; 
+  /* padding: 20px;  */
   display: flex;
   align-items: center;
   justify-content: center;
