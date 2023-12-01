@@ -41,7 +41,7 @@ body {
 
 .fundo-home {
   width: 100%;
-  height: 1000px;
+  height: 700px;
   background-size: cover;
   background-image: url(imagens/fundo-principal.webp);
   background-repeat: no-repeat;
@@ -60,24 +60,43 @@ body {
   background-image: url(imagens/fundo-player.webp);
   background-repeat: no-repeat;
   background-position: center;
-}  
+}   
 
-.menu-home { 
-  color:#FFC214; 
+.fundo-home{
+  width: 100%;
+  height: 86vh;
+}
+
+.home { 
+  color:#FFC214;   
+  position: absolute;
+  bottom: 130px;
+  left: 0; 
+  margin-left: 25%;
+  width: 640px;
+  height: 330px;
+  border: 1px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;  
+ flex-direction: column;
+} 
+
+button.btn.btn-dark {
+  border: none;
 }
 
 .icones-home { 
   display: flex; 
   flex-direction: row;
-  align-items: center;
-} 
+  align-items: center;  
+  justify-content: center;
+  gap: 5px;
+}  
 
-.jogo-1 img {
-: contain;
-}
-
-.jogo-2 {
-  background-size: contain;
+.icones-home button img{ 
+  width: 150px;
+  height: 150px;
 }
 /* LOGIN */
 
@@ -137,7 +156,7 @@ body {
   border-radius: 60px;
   padding: 10px;
   margin-top: 13px;
-  width: 20rem;
+  width: 12rem;
 }
 
 .button-cadastro button { 
@@ -288,7 +307,7 @@ footer {
   width: 100%;
   height: auto;
   position: absolute;
-bottom: 0;
-left: 0;
+  bottom: 0;
+  left: 0;
 }
 
