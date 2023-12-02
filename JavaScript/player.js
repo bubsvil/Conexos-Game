@@ -23,10 +23,8 @@ function redirecionarUsuario() {
 function exibirDadosDoUsuario(dadosDoUsuario) {
     var nomeUsuarioElement = document.getElementById('nomeUsuario');
     var emailUsuarioElement = document.getElementById('emailUsuario');
-    var pontuacaoUsuarioElement = document.getElementById('pontuacaoUsuario');
 
     // Atualizar o conteúdo dos elementos com os dados do usuário
     nomeUsuarioElement.textContent = 'Nome de Usuário: ' + dadosDoUsuario.nomeUsuario;
     emailUsuarioElement.textContent = 'E-mail: ' + dadosDoUsuario.email;
-    pontuacaoUsuarioElement.textContent = 'Pontuação: ' + dadosDoUsuario.pontuacao;
 }
