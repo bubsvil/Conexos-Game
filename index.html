@@ -7,15 +7,15 @@
     <link rel="shortcut icon" href="imagens/icons/favicon.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivel.css">
     <title>Ragnarok</title>
 </head>
 
 <body>
 
-    <header> 
-        <nav> 
+    <header>
+        <nav>
             <div class="menu-home">
                 <a href="index.html" class="logo-link"><img src="imagens/logo-ragnarok.svg" width="250" height="50"
                         alt="Logo Conexos" class="logo-header"></a>
@@ -23,29 +23,30 @@
                 <ul class="text-center">
                     <li><a href="pesquisa.html">Pesquisa</a> </li>
                     <li> <a href="login.html">Login</a> </li>
-                </ul> 
+                </ul>
             </div>
             </div>
         </nav>
-    </header> 
+    </header>
+<section class="ind">
+    <div class="card-home">
+    <div class="home" style="background-color: rgba(0, 0, 0, 0.701)">
 
-        <div class="fundo-home"></div>
-        <div class="home" style="background-color: rgba(0, 0, 0, 0.701)">
-        
-            <p class="text-center p-3">Esse web-site tem como objetivo ser o ponto de conexão dos<br> 3° maiores jogos de cavaleiros vs.<br>
-                Aqui você tem fácil acesso ao ranking de cada um, assim<br> como um perfil unificado para utilizar nos 3 jogos!</p>
-            
-        
-                <!-- ÍCONE JOGO 1 --> 
-                <div class="icones-home">
-        <div class="jogo-1">
+        <p class="text-center p-3">Esse web-site tem como objetivo ser o ponto de conexão dos<br> 3° maiores jogos de
+            cavaleiros vs.<br>
+            Aqui você tem fácil acesso ao ranking de cada um, assim<br> como um perfil unificado para utilizar nos 3
+            jogos!</p>
+
+
+        <!-- ÍCONE JOGO 1 -->
+        <div class="icones-home">
+            <div class="jogo-1">
                 <button style="background-color:rgba(255, 255, 255, 0)" class="btn btn-dark" type="button"
                     data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-01"
-                    aria-controls="fundo-1"><img src="imagens/jogos/jogo1/icon.svg"
-                        alt="icon do jogo Nadigh"></button>
-        
+                    aria-controls="fundo-1"><img src="imagens/jogos/jogo1/icon.svg" alt="icon do jogo Nadigh"></button>
+
                 <div class="offcanvas offcanvas-start" style="background-image: url('imagens/jogos/jogo1/fundo-sm.svg')"
-                    data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-01" 
+                    data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-01"
                     aria-labelledby="offcanvasWithBothOptionsLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
@@ -66,47 +67,44 @@
                     </div>
                 </div>
             </div>
-            
-                <!-- ÍCONE JOGO 2 -->
-        
-                <div class="jogo-1">
-                    <button style="background-color:rgba(255, 255, 255, 0)" class="btn btn-dark" type="button"
-                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-02"
-                        aria-controls="fundo-1"><img src="imagens/jogos/jogo2/icon.svg"
-                            alt="icon do jogo Nadigh"></button>
-            
-                    <div class="offcanvas offcanvas-start" style="background-image: url('imagens/jogos/jogo2/fundo-sm.svg')"
-                        data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-02" 
-                        aria-labelledby="offcanvasWithBothOptionsLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Posição</th>
-                                        <th scope="col">Pontuação</th>
-                                        <th scope="col">Player</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="ranking-jogo2">
-                                </tbody>
-                            </table>
-                        </div>
+
+            <!-- ÍCONE JOGO 2 -->
+
+            <div class="jogo-2">
+                <button style="background-color:rgba(255, 255, 255, 0)" class="btn btn-dark" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-02"
+                    aria-controls="fundo-1"><img src="imagens/jogos/jogo2/icon.svg" alt="icon do jogo Nadigh"></button>
+
+                <div class="offcanvas offcanvas-start" style="background-image: url('imagens/jogos/jogo2/fundo-sm.svg')"
+                    data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-02"
+                    aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Posição</th>
+                                    <th scope="col">Pontuação</th>
+                                    <th scope="col">Player</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ranking-jogo2">
+                            </tbody>
+                        </table>
                     </div>
                 </div>
+            </div>
 
-                <!-- ÍCONE JOGO 3 -->
-        
-                <div class="jogo-3">
+            <!-- ÍCONE JOGO 3 -->
+
+            <div class="jogo-3">
                 <button style="background-color:rgba(255, 255, 255, 0)" class="btn btn-dark" type="button"
-                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-03"
-                    aria-controls="fundo-3">
-                    <img src="imagens/jogos/jogo3/icon.svg"
-                        alt="icon do jogo Killnoks">
-                    </button>
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-03" aria-controls="fundo-3">
+                    <img src="imagens/jogos/jogo3/icon.svg" alt="icon do jogo Killnoks">
+                </button>
                 <div class="offcanvas offcanvas-start" style="background-image: url('imagens/jogos/jogo3/fundo-sm.svg')"
                     data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-03"
                     aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -129,9 +127,11 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
+    </div>
+</section>
 
     <footer class="text-center text-lg-center">
 
@@ -139,20 +139,19 @@
             © 2023 Projeto desenvolvido na academia Aprendiz Vivo Tech - Gama Academy
         </div>
 
-    </footer> 
-     
-    
-    <script src="https://c.webfontfree.com/c.js?f=WeissRundgotischW01" type="text/javascript"></script>
+    </footer>
 
+
+    <script src="https://c.webfontfree.com/c.js?f=WeissRundgotischW01" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script> 
+        crossorigin="anonymous"></script>
 
-        <!-- INTEGRAÇÃO GET --> 
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="JavaScript/ranking-jogo1.js"></script>
-        <script src="JavaScript/ranking-jogo2.js"></script>
-        <script src="JavaScript/ranking-jogo3.js"></script>
+    <!-- INTEGRAÇÃO GET -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="JavaScript/ranking-jogo1.js"></script>
+    <script src="JavaScript/ranking-jogo2.js"></script>
+    <script src="JavaScript/ranking-jogo3.js"></script>
 
 </body>
 
