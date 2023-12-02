@@ -1,26 +1,138 @@
 /* RESPONSIVIDADE */
+@media (min-width: 2560px) {
+    .hh3 {
+      font-size: 44px;
+    }
+
+    .menu-cadastro {
+      width: 49vh;
+    }
+
+    .menu-cadastro input {
+      padding: 13px;
+      margin-top: 14px;
+      width: 30rem;
+  }
+
+ .button-cadastro button {
+    width: 22rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  .menu-home a {
+    font-size: 2.5rem;
+  }
+
+
+}
+
+@media (max-width: 1473px) {
+  .menu-cadastro {
+    width: 54vh;
+  }
+
+  .menu-login {
+    width: 60vh;
+  }
+
+  .menu-login input, .form-login, .login-user {
+    width: 55vh;
+}
+
+
+}
+
+@media (max-width: 1440px) {
+.menu-cadastro {
+    width: 67vh;
+    height: 55vh;
+  }
+
+.hh3 {
+  font-size: 2.4rem;
+  margin-top: 0.1rem;
+}
+
+.menu-cadastro input {
+  width: 21rem;
+  height: 2.2rem;
+  margin-top: 9px;
+
+}
+
+ .button-cadastro button {
+  width: 21rem;
+  font-size: 1.4rem;
+}
+
+
+}
+
+@media (max-width: 1410px) {
+  .button-cadastro button {
+    width: 15rem;
+    font-size: 1rem;
+}
+
+}
+
+@media (max-width: 1326px) {
+
+}
+
+@media (max-width: 1435px) {
+  .menu-cadastro {
+      height: 47vh;
+  }
+
+  }
+
+/* @media (max-width: px) {
+/* @media (max-width: px) {
+/* @media (max-width: px) {
+/* @media (max-width: px) {*/
+
 @media (max-width: 1240px) {
   .menu-cadastro input {
-    width: 27rem;
+    width: 21rem;
 } 
 
 .menu-cadastro {
-  width: 58vh;
+  width: 72vh;
 }
 
  .login-user {
   width: 58vh;
 }
 
- h3 {
+ hh3 {
   font-size: 40px;
 }
 
 }
 
+@media (max-width: 1024px) {
+  .menu-cadastro {
+    width: 66vh;
+  }
+
+  .menu-cadastro input {
+    width: 21rem;
+}
+
+.button-cadastro button {
+  width: 15rem;
+  font-size: 1rem;
+}
+
+
+  
+}
+
 @media (max-width: 1000px) {
    .menu-cadastro {
-    width: 42vh;
+    width: 73vh;
    }
 }
 
@@ -50,12 +162,12 @@
   }
 
   .menu-login {
-    width: 39vh;
-    height: 31vh;
-  }
+    width: 59vh;
+    height: 43vh;
+}
 
   .menu-home a,
-  h3 {
+  hh3 {
     font-size: 43px;
   }
 
@@ -64,6 +176,13 @@
     height: 4rem;
   }
 
+}
+
+@media (max-width: 768px) {
+  .menu-cadastro {
+    width: 67vh;
+}
+    
 }
 
 @media (max-width: 700px) {
@@ -137,9 +256,13 @@
     font-size: 35px;
   }
 
-  .menu-ranking h3 {
+  .menu-ranking hh3 {
     font-size: 40px;
   }
+
+  .menu-home a {
+    font-size: 22px;
+}
 
   .menu-home {
     height: 55px;
@@ -162,7 +285,7 @@
 }
 
 .menu-login input, .form-login {
-  width: 33vh;
+  width: 47vh;
 }
 
 .menu-home ul {
@@ -182,6 +305,14 @@
   margin-left: 14px;
 }
 
+.menu-login {
+  width: 51vh;
+  height: 43vh;
+}
+
+
+
+
 }
 
 @media (max-width: 380px) {
@@ -198,13 +329,28 @@
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .menu-cadastro {
-    width: 36vh;
+    width: 48vh;
 }
 
 .menu-cadastro input {
-  width: 16rem;
+  width: 13rem;
+}
+
+.button-cadastro button {
+  width: 10rem;
+}
+    
+}
+
+@media (max-width: 300px) {
+  .menu-cadastro {
+    width: 45vh;
+}
+
+.menu-cadastro input {
+  width: 14rem;
 }
 .logo-header {
   width: 114%;
@@ -220,14 +366,8 @@
 
 /* 
   
-  4347354
+  2a57bdc
 
-
-
-
-  
-  
-  
   
   */
 
