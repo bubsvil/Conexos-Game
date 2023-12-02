@@ -1,4 +1,9 @@
 /* RESPONSIVIDADE */
+@media (max-width: 1000px) {
+   .menu-cadastro {
+    width: 42vh;
+   }
+}
 
 @media (max-width: 900px) {
   .menu-ranking {
@@ -145,11 +150,15 @@
 
 }
 
+@media (max-width: 300px) {
+    
+}
+
 
 
 /* 
   
-  b5f39e5
+  5fe0264
 
 
   
