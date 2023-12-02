@@ -103,7 +103,7 @@ font-size: 2.5rem;
 
 @media (max-width: 1473px) {
   .menu-cadastro {
-    width: 54vh;
+    width: 64vh;
   }
 
   .menu-login {
@@ -157,7 +157,7 @@ font-size: 2.5rem;
 
 @media (max-width: 1435px) {
   .menu-cadastro {
-      height: 47vh;
+      height: 57vh;
   }
 
   }
