@@ -307,7 +307,7 @@ footer {
   color: #ffc214;
   width: 100%;
   height: auto;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
 }
