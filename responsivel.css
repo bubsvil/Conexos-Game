@@ -27,19 +27,29 @@
 
 }
 
+@media (max-width: 1473px) {
+  .menu-cadastro {
+    width: 54vh;
+  }
+
+}
+
 @media (max-width: 1440px) {
 .menu-cadastro {
-    width: 51vh;
-    height: 35vh;
+    width: 67vh;
+    height: 55vh;
   }
 
 .hh3 {
   font-size: 2.4rem;
-  margin-top: 1rem;
+  margin-top: 0.1rem;
 }
 
 .menu-cadastro input {
-  width: 29rem;
+  width: 21rem;
+  height: 2.2rem;
+  margin-top: 9px;
+
 }
 
  .button-cadastro button {
@@ -50,13 +60,31 @@
 
 }
 
+@media (max-width: 1410px) {
+  .button-cadastro button {
+    width: 15rem;
+    font-size: 1rem;
+}
+
+}
+
+@media (max-width: 1326px) {
+
+}
+
+/* @media (max-width: px) {
+/* @media (max-width: px) {
+/* @media (max-width: px) {
+/* @media (max-width: px) {
+/* @media (max-width: px) {*/
+
 @media (max-width: 1240px) {
   .menu-cadastro input {
-    width: 27rem;
+    width: 21rem;
 } 
 
 .menu-cadastro {
-  width: 58vh;
+  width: 72vh;
 }
 
  .login-user {
@@ -69,9 +97,27 @@
 
 }
 
+@media (max-width: 1024px) {
+  .menu-cadastro {
+    width: 66vh;
+  }
+
+  .menu-cadastro input {
+    width: 21rem;
+}
+
+.button-cadastro button {
+  width: 15rem;
+  font-size: 1rem;
+}
+
+
+  
+}
+
 @media (max-width: 1000px) {
    .menu-cadastro {
-    width: 42vh;
+    width: 73vh;
    }
 }
 
@@ -115,6 +161,13 @@
     height: 4rem;
   }
 
+}
+
+@media (max-width: 768px) {
+  .menu-cadastro {
+    width: 67vh;
+}
+    
 }
 
 @media (max-width: 700px) {
@@ -249,13 +302,28 @@
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .menu-cadastro {
-    width: 36vh;
+    width: 48vh;
 }
 
 .menu-cadastro input {
-  width: 16rem;
+  width: 13rem;
+}
+
+.button-cadastro button {
+  width: 10rem;
+}
+    
+}
+
+@media (max-width: 300px) {
+  .menu-cadastro {
+    width: 45vh;
+}
+
+.menu-cadastro input {
+  width: 14rem;
 }
 .logo-header {
   width: 114%;
