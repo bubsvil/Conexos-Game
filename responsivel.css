@@ -69,6 +69,36 @@
   text-align: center;
 }
 
+.menu-configuracao {
+  width: 47rem;
+  height: 36rem;
+}
+
+.menu-configuracao .hh3 {
+  font-size: 59px;
+}
+
+.menu-configuracao input {
+  padding: 15px;
+  margin-top: 23px;
+  width: 35rem;
+  font-size: 2rem;
+}
+
+.att {
+  width: 4.5rem;
+}
+
+.button-configuracao button {
+width: 24rem;
+height: 6rem;
+font-size: 2.5rem;
+}
+
+
+
+
+
 }
 
 @media (max-width: 1473px) {
@@ -256,7 +286,14 @@
   width: 7rem;
 }
 
+.fundo-player {
+background-position: -1em;
+}
 
+.menu-configuracao {
+  width: 25rem;
+  height: 22rem;
+}
 
 }
 
@@ -413,6 +450,21 @@ p {
   background-position: -2em;
 }
 
+.hh3 {
+  font-size: 2rem;
+}
+
+.menu-configuracao {
+  width: 23rem;
+  height: 22rem;
+}
+
+.menu-configuracao input {
+width: 19rem;
+}
+
+
+
 }
 
 @media (max-width: 380px) {
@@ -495,6 +547,17 @@ p {
 .table {
   width: 15rem;
 }
+
+.menu-configuracao {
+  width: 18rem;
+  height: 22rem;
+}
+
+.menu-configuracao input {
+  width: 14rem;
+}
+
+
     
 }
 

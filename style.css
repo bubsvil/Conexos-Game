@@ -240,8 +240,8 @@ button.btn.btn-dark {
 /* CONFIGURAÇÃO */
 
 .menu-configuracao {
-  width: 300px;
-  height: 280px;
+  width: 26rem;
+  height: 22rem;
   border: 1px;
   border-radius: 10%;
   align-items: center;
@@ -249,17 +249,14 @@ button.btn.btn-dark {
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  margin-left: 580px;
-  margin-top: 50px;
   position: absolute;
-  top: 250px;
-  left: 0;
 }
 
 .menu-configuracao input {
   border-radius: 60px;
   padding: 10px;
   margin-top: 15px;
+  width: 20rem;
 }
 
 .espada-conf {
@@ -279,18 +276,24 @@ button.btn.btn-dark {
   flex-direction: row;
   align-items: center;
 }
+.att {
+  width: 2.5rem;
+}
 
 .button-configuracao button {
-    color: #FFC214; 
-    border-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 90px;
-    margin-top: 30px;
-    padding: 5px;
-    font-family: 'WeissRundgotischW01';
+  color: #FFC214;
+  border-color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: 'WeissRundgotischW01';
+  margin: auto;
+  margin-top: 12px;
+  display: block;
+  height: 3rem;
+  width: 12rem;
+  font-size: 1.5rem;
 }
+
 
 /* RANKING */
 
