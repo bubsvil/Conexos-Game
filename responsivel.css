@@ -14,7 +14,7 @@
       width: 30rem;
   }
 
-  .button-login button, .button-cadastro button {
+ .button-cadastro button {
     width: 22rem;
     font-size: 1.8rem;
     margin-top: 1rem;
@@ -31,6 +31,15 @@
   .menu-cadastro {
     width: 54vh;
   }
+
+  .menu-login {
+    width: 60vh;
+  }
+
+  .menu-login input, .form-login, .login-user {
+    width: 55vh;
+}
+
 
 }
 
@@ -72,7 +81,13 @@
 
 }
 
-/* @media (max-width: px) {
+@media (max-width: 1435px) {
+  .menu-cadastro {
+      height: 47vh;
+  }
+
+  }
+
 /* @media (max-width: px) {
 /* @media (max-width: px) {
 /* @media (max-width: px) {
@@ -147,9 +162,9 @@
   }
 
   .menu-login {
-    width: 39vh;
-    height: 31vh;
-  }
+    width: 59vh;
+    height: 43vh;
+}
 
   .menu-home a,
   hh3 {
@@ -245,6 +260,10 @@
     font-size: 40px;
   }
 
+  .menu-home a {
+    font-size: 22px;
+}
+
   .menu-home {
     height: 55px;
 }
@@ -266,7 +285,7 @@
 }
 
 .menu-login input, .form-login {
-  width: 33vh;
+  width: 47vh;
 }
 
 .menu-home ul {
@@ -285,6 +304,13 @@
 .menu-home ul li {
   margin-left: 14px;
 }
+
+.menu-login {
+  width: 51vh;
+  height: 43vh;
+}
+
+
 
 }
 
