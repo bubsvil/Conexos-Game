@@ -41,37 +41,49 @@ body {
 
 .fundo-home {
   width: 100%;
-  height: 1000px;
+  height: 700px;
   background-size: cover;
   background-image: url(imagens/fundo-principal.webp);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.fundo-player {
-  position: relative;
+.fundo-home{
+  width: 100%;
+  height: 86vh;
 }
 
-.imagem {
+.home { 
+  color:#FFC214;   
   position: absolute;
-  width: 100%;
-  height: 1000px;
-  background-size: cover;
-  background-image: url(imagens/fundo-player.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-}  
+  bottom: 130px;
+  left: 0; 
+  margin-left: 25%;
+  width: 640px;
+  height: 330px;
+  border: 1px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;  
+ flex-direction: column;
+} 
 
-.menu-home { 
-  color:#FFC214; 
+button.btn.btn-dark {
+  border: none;
 }
 
 .icones-home { 
   display: flex; 
   flex-direction: row;
-  align-items: center;
-}
+  align-items: center;  
+  justify-content: center;
+  gap: 5px;
+}  
 
+.icones-home button img{ 
+  width: 150px;
+  height: 150px;
+}
 /* LOGIN */
 
 .sec-login {
@@ -110,13 +122,13 @@ body {
   width: 36vh;
 }
 
-.button-login button { 
+.button-login button, .button-cadastro button { 
   color: #FFC214; 
   border-color: white;
   display: flex; 
   justify-content: center;
   align-items: center;   
-  margin-top: 10px; 
+  margin-top: 5px; 
   padding: 5px;
   width: 77px;
   font-family: 'WeissRundgotischW01';
@@ -130,32 +142,56 @@ body {
   border-radius: 60px;
   padding: 10px;
   margin-top: 13px;
-  width: 20rem;
+  width: 19rem;
 }
 
 .button-cadastro button { 
-    color: #FFC214; 
-    border-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 60px;
-    margin-top: 10px;
-    padding: 5px;
-    font-family: 'WeissRundgotischW01';
+   margin-bottom: 10px;
 }
 
 /* PLAYER */
+.fundo-player {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-image: url(imagens/fundo-player.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}   
+
+.fundo-player {
+  width: 100%;
+  height: 86vh;
+}
+
+.menu-player {
+  color:#FFC214;   
+  position: absolute;
+  bottom: 90px;
+  left: 0; 
+  margin-left: 30%;
+  width: 500px;
+  height: 390px;
+  border: 1px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;  
+ flex-direction: column;
+}
 
 .body-content {
   margin-bottom: 1000px;
 }
 
+.configuracao img {
+  width: 40px;
+  height: 30px;
+} 
+
 .estrela {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px;
 }
 
 .flecha {
@@ -281,7 +317,7 @@ footer {
   width: 100%;
   height: auto;
   position: absolute;
-bottom: 0;
-left: 0;
+  bottom: 0;
+  left: 0;
 }
 
