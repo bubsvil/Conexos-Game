@@ -39,13 +39,22 @@ body {
 
 /* HOME */
 
-.fundo-home {
+.card-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ind {
   width: 100%;
   height: 700px;
   background-size: cover;
   background-image: url(imagens/fundo-principal.webp);
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fundo-home{
@@ -53,20 +62,18 @@ body {
   height: 86vh;
 }
 
-.home { 
-  color:#FFC214;   
+.home {
+  color: #FFC214;
   position: absolute;
-  bottom: 130px;
-  left: 0; 
-  margin-left: 25%;
   width: 640px;
-  height: 330px;
+  height: 331px;
   border: 1px;
-  border-radius: 60px;
+  border-radius: 58px;
   display: flex;
-  align-items: center;  
- flex-direction: column;
-} 
+  align-items: center;
+  flex-direction: column;
+}
+
 
 button.btn.btn-dark {
   border: none;
@@ -312,3 +319,8 @@ footer {
   left: 0;
 }
 
+.offcanvas {
+  background-repeat:  no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
