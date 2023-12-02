@@ -6,6 +6,7 @@
 
     .menu-cadastro {
       width: 49vh;
+      height: auto;
     }
 
     .menu-cadastro input {
@@ -104,6 +105,7 @@ font-size: 2.5rem;
 @media (max-width: 1473px) {
   .menu-cadastro {
     width: 64vh;
+    height: auto;
   }
 
   .menu-login {
@@ -120,8 +122,8 @@ font-size: 2.5rem;
 @media (max-width: 1440px) {
 .menu-cadastro {
     width: 67vh;
-    height: 55vh;
-  }
+    height: auto;
+    }
 
 .hh3 {
   font-size: 2.4rem;
@@ -157,8 +159,8 @@ font-size: 2.5rem;
 
 @media (max-width: 1435px) {
   .menu-cadastro {
-      height: 57vh;
-  }
+    height: auto;
+    }
 
   }
 
@@ -169,6 +171,7 @@ font-size: 2.5rem;
 
 .menu-cadastro {
   width: 72vh;
+  height: auto;
 }
 
  .login-user {
@@ -184,6 +187,7 @@ font-size: 2.5rem;
 @media (max-width: 1024px) {
   .menu-cadastro {
     width: 66vh;
+    height: auto;
   }
 
   .menu-cadastro input {
@@ -202,6 +206,7 @@ font-size: 2.5rem;
 @media (max-width: 1000px) {
    .menu-cadastro {
     width: 73vh;
+    height: auto;
    }
 }
 
@@ -250,6 +255,11 @@ font-size: 2.5rem;
 @media (max-width: 768px) {
   .menu-cadastro {
     width: 67vh;
+    height: auto;
+}
+
+.menu-cadastro input {
+  width: 19rem;
 }
     
 }
@@ -495,6 +505,7 @@ width: 19rem;
 @media (max-width: 320px) {
   .menu-cadastro {
     width: 48vh;
+    height: auto;
 }
 
 .menu-cadastro input {
@@ -564,6 +575,7 @@ width: 19rem;
 @media (max-width: 300px) {
   .menu-cadastro {
     width: 45vh;
+    height: auto;
 }
 
 .menu-cadastro input {
@@ -584,6 +596,9 @@ width: 19rem;
 
 .menu-home ul {
   margin-left: -1rem;
+}
+.menu-cadastro input {
+  width: 13rem;
 }
     
 }
