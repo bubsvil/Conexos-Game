@@ -282,37 +282,28 @@ button.btn.btn-dark {
 
 /* RANKING */
 
-.menu-ranking {
-  width: 45%;
-  height: 65%;
+.menu-pesquisa {
+  position: absolute;
+  bottom: 170px;
+  left: 0; 
+  margin-left: 35%; 
+  background-color:rgba(6, 6, 6, 0.703);
+  width: 400px;
+  height: 200px;
   border: 1px;
-  border-radius: 55px;
+  border-radius: 60px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  background-color: rgba(0, 0, 0, 0.703);
-  margin-top: 15%;
-  margin-left: 28%;
+  align-items: center;  
+ flex-direction: column;
+}
+.menu-pesquisa input {
+padding: 5px; 
+border-radius: 30px;
 }
 
-.menu-ranking h2 {
-    color: #F7831A; 
-    font-size: 20px;
-    font-family: 'WeissRundgotischW01';
-} 
-
-.menu-ranking p {
-    color:#FFC214 ; 
-    font-size: 15px;
-    font-family: sans-serif;
-}
-
-.menu-ranking h3 { 
-    color: #F7831A; 
-    font-family: 'WeissRundgotischW01';
-    font-size: 40px;
+.menu-pesquisa img {
+width: 30px; 
+height: 30px;
 }
 
 /* FOOTER */
