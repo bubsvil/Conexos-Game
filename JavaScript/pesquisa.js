@@ -3,9 +3,9 @@ function search() {
 
     Promise.all([
         axios.get('http://localhost:8080/ranking/jogador', { params: { nickname: jogadorNickname } }),
-        axios.get('http://localhost:8080/ranking/jogo/1', { params: { id: 1 } }),
-        axios.get('http://localhost:8080/ranking/jogo/2', { params: { id: 2 } }),
-        axios.get('http://localhost:8080/ranking/jogo/3', { params: { id: 3 } })
+        axios.get('http://localhost:8080/ranking/jogo/1'),
+        axios.get('http://localhost:8080/ranking/jogo/2'),
+        axios.get('http://localhost:8080/ranking/jogo/3')
     ])
     .then(function(responses) {
       
@@ -22,15 +22,55 @@ function search() {
     });
 }
 
-function updateTable(data) {
+function updateTable(rankingData, data1, data2, data3) {
     var tableBody = document.getElementById('pesquisa-nickname');
     tableBody.innerHTML = '';
 
-    // Adiciona uma linha para cada jogo
-    data.forEach(function (ranking) {
+    // Adiciona uma linha para cada jogador
+    rankingData.forEach(function (ranking) {
         var newRow = '<tr>';
-        newRow += '<td>' + ranking.pontuacao + '</td>';
+        newRow += '<td>' + getPontuacaoByJogoId(ranking.jogo.id, data1) + '</td>';
+        newRow += '<td>' + getPontuacaoByJogoId(ranking.jogo.id, data2) + '</td>';
+        newRow += '<td>' + getPontuacaoByJogoId(ranking.jogo.id, data3) + '</td>';
         newRow += '</tr>';
         tableBody.innerHTML += newRow;
     });
+
+    // Transpõe a tabela para mostrar a pontuação uma ao lado da outra
+    transposeTable('pesquisa-nickname');
+}
+
+function getPontuacaoByJogoId(jogoId, jogoData) {
+    var pontuacao = 0;
+
+    // Procura pela pontuação do jogo correspondente no conjunto de dados
+    var jogoRanking = jogoData.find(function (ranking) {
+        return ranking.jogo.id === jogoId;
+    });
+
+    if (jogoRanking) {
+        pontuacao = jogoRanking.pontuacao;
+    }
+
+    return pontuacao;
+}
+
+function transposeTable(tableId) {
+    var table = document.getElementById(tableId);
+    var rows = table.getElementsByTagName('tr');
+    var cols = rows[0].getElementsByTagName('td').length;
+
+    // Cria uma nova tabela transposta
+    var transposedTable = '<table class="table table-striped table-dark">';
+    for (var i = 0; i < cols; i++) {
+        transposedTable += '<tr>';
+        for (var j = 0; j < rows.length; j++) {
+            transposedTable += '<td>' + rows[j].getElementsByTagName('td')[i].innerHTML + '</td>';
+        }
+        transposedTable += '</tr>';
+    }
+    transposedTable += '</table>';
+
+    // Atualiza a tabela original com a transposta
+    table.innerHTML = transposedTable;
 }
