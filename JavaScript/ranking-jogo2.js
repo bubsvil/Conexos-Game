@@ -1,13 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-<<<<<<< HEAD
-async function fetchData() {
-  try {
-    const response = await axios.get('URL_DO_SEU_BACKEND');
-    const data = response.data;
-=======
   const apiUrl = "http://localhost:8080/ranking/jogo/2"; 
->>>>>>> b743f8870c5a0b5d46af9be04b8784afa218f20d
 
 
   const rankingTableBody = document.getElementById("ranking-jogo2");
