@@ -4,13 +4,12 @@ function autenticarUsuario() {
 
     var url = 'URL_DO_SEU_BACKEND/auth?usuario=' + encodeURIComponent(usuario) + '&senha=' + encodeURIComponent(senha);
 
-    // Enviar a requisição GET para autenticação usando Axios
     axios.get(url)
         .then(function (response) {
             if (response.data.autenticado) {
                 console.log('Usuário autenticado com sucesso!', response.data);
-                // Redirecionar para a página player.html
                 window.location.href = 'player.html';
+                
             } else {
                 console.log('Falha na autenticação. Usuário ou senha incorretos.');
                 exibirModalErro();

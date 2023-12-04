@@ -11,8 +11,7 @@ function enviarDados() {
         nickName: nickName,
         senha: senha
     };
-
-    // Enviar os dados para o servidor usando Axios
+    
     axios.post('URL_DO_SEU_BACKEND', dados)
         .then(function (response) {
             console.log('Cadastro efetuado com sucesso!', response.data);

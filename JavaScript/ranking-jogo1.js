@@ -2,7 +2,7 @@ import axios from 'axios';
 
 async function fetchData() {
   try {
-    const response = await axios.get('URL_DO_SEU_BACKEND'); // Substitua pela URL do seu backend
+    const response = await axios.get('URL_DO_SEU_BACKEND'); 
     const data = response.data;
 
     updateTable(data);
