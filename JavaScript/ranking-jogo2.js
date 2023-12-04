@@ -1,40 +1,33 @@
-import axios from 'axios';
+document.addEventListener("DOMContentLoaded", function () {
 
+<<<<<<< HEAD
 async function fetchData() {
   try {
     const response = await axios.get('URL_DO_SEU_BACKEND');
     const data = response.data;
+=======
+  const apiUrl = "http://localhost:8080/ranking/jogo/2"; 
+>>>>>>> b743f8870c5a0b5d46af9be04b8784afa218f20d
 
-    updateTable(data);
-  } catch (error) {
-    console.error('Erro ao obter dados do backend', error);
-  }
-}
 
-function updateTable(data) {
-  const tableBody = document.getElementById('ranking-jogo2'); 
+  const rankingTableBody = document.getElementById("ranking-jogo2");
 
-  tableBody.innerHTML = '';
 
-  data.forEach(item => {
-    const row = document.createElement('tr');
+  axios.get(apiUrl)
+      .then(response => {
+          const data = response.data;
 
-   
-    const positionCell = document.createElement('td');
-    positionCell.textContent = item.position;
 
-    const scoreCell = document.createElement('td');
-    scoreCell.textContent = item.score;
+          data.sort((a, b) => b.pontuacao - a.pontuacao);
 
-    const usernameCell = document.createElement('td');
-    usernameCell.textContent = item.username;
-
-    row.appendChild(positionCell);
-    row.appendChild(scoreCell);
-    row.appendChild(usernameCell);
-
-    tableBody.appendChild(row);
-  });
-}
-
-document.addEventListener('DOMContentLoaded', fetchData);
+          data.forEach((pontuacao, index) => {
+              const row = `<tr>
+                              <td>${index + 1}</td>
+                              <td>${pontuacao.pontuacao}</td>
+                              <td>${pontuacao.jogador.nicknameDoJogador}</td>
+                           </tr>`;
+              rankingTableBody.innerHTML += row;
+          });
+      })
+      .catch(error => console.error("Erro ao obter dados da API:", error));
+});

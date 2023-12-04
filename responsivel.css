@@ -6,6 +6,7 @@
 
     .menu-cadastro {
       width: 49vh;
+      height: auto;
     }
 
     .menu-cadastro input {
@@ -23,13 +24,88 @@
   .menu-home a {
     font-size: 2.5rem;
   }
+.p-2 {
+  font-size: 2rem;
+}
+
+.p-3 {
+  font-size: 1.6rem;
+}
+
+.home {
+  width: 51rem;
+  height: 30rem;
+}
+
+.imag {
+  width: 15rem;
+}
+
+.menu-home a, h3 {
+  font-size: 47px;
+}
+
+.logo-lo {
+  width: 23rem;
+}
+
+.menu-pesquisa {
+  width: 40rem;
+  height: 17rem;
+}
+
+.menu-pesquisa input {
+  width: 29rem;
+  height: 4rem;
+}
+
+.menu-pesquisa img {
+  width: 4rem;
+}
+
+.table {
+  font-size: 2rem;
+  width: 27rem;
+  height: 8rem;
+  text-align: center;
+}
+
+.menu-configuracao {
+  width: 47rem;
+  height: 36rem;
+}
+
+.menu-configuracao .hh3 {
+  font-size: 59px;
+}
+
+.menu-configuracao input {
+  padding: 15px;
+  margin-top: 23px;
+  width: 35rem;
+  font-size: 2rem;
+}
+
+.att {
+  width: 4.5rem;
+}
+
+.button-configuracao button {
+width: 24rem;
+height: 6rem;
+font-size: 2.5rem;
+}
+
+
+
 
 
 }
 
 @media (max-width: 1473px) {
   .menu-cadastro {
-    width: 54vh;
+    width: 64vh;
+    height: auto;
   }
 
   .menu-login {
@@ -46,8 +122,8 @@
 @media (max-width: 1440px) {
 .menu-cadastro {
     width: 67vh;
-    height: 55vh;
-  }
+    height: auto;
+    }
 
 .hh3 {
   font-size: 2.4rem;
@@ -83,15 +159,10 @@
 
 @media (max-width: 1435px) {
   .menu-cadastro {
-      height: 47vh;
-  }
+    height: auto;
+    }
 
   }
-
-/* @media (max-width: px) {
-/* @media (max-width: px) {
-/* @media (max-width: px) {
-/* @media (max-width: px) {*/
 
 @media (max-width: 1240px) {
   .menu-cadastro input {
@@ -100,6 +171,7 @@
 
 .menu-cadastro {
   width: 72vh;
+  height: auto;
 }
 
  .login-user {
@@ -115,6 +187,7 @@
 @media (max-width: 1024px) {
   .menu-cadastro {
     width: 66vh;
+    height: auto;
   }
 
   .menu-cadastro input {
@@ -133,6 +206,7 @@
 @media (max-width: 1000px) {
    .menu-cadastro {
     width: 73vh;
+    height: auto;
    }
 }
 
@@ -181,6 +255,11 @@
 @media (max-width: 768px) {
   .menu-cadastro {
     width: 67vh;
+    height: auto;
+}
+
+.menu-cadastro input {
+  width: 19rem;
 }
     
 }
@@ -191,8 +270,14 @@
     height: 72px;
   }
 
+  .home {
+    width: 36rem;
+    height: 18rem;
+  }
 
-
+  .menu-pesquisa {
+  width: 24rem;
+  }
 
 
 }
@@ -201,6 +286,25 @@
   .menu-home a {
     font-size: 34px;
 }
+
+.home {
+  width: 31rem;
+  height: 18rem;
+}
+
+.imag {
+  width: 7rem;
+}
+
+.fundo-player {
+background-position: -1em;
+}
+
+.menu-configuracao {
+  width: 25rem;
+  height: 22rem;
+}
+
 }
 
 @media (max-width: 588px) {
@@ -276,6 +380,35 @@
   font-size: 1rem;
 }
 
+.home {
+  width: 30rem;
+  height: 17rem;
+}
+
+p {
+  margin-bottom: 0rem;
+}
+
+.home {
+  width: 27rem;
+  height: 18rem;
+}
+
+.menu-pesquisa {
+  width: 23rem;
+}
+
+}
+
+@media (max-width: 450px) {
+  .home {
+    width: 25rem;
+}
+
+.fundo-player {
+  background-position: -1em;
+}
+
 }
 
 @media (max-width: 400px) {
@@ -310,6 +443,35 @@
   height: 43vh;
 }
 
+.home {
+  width: 23rem;
+  height: 25rem;
+}
+
+.icones-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(81% - 1rem);
+  margin-bottom: 3px; 
+}
+
+.fundo-player {
+  background-position: -2em;
+}
+
+.hh3 {
+  font-size: 2rem;
+}
+
+.menu-configuracao {
+  width: 23rem;
+  height: 22rem;
+}
+
+.menu-configuracao input {
+width: 19rem;
+}
 
 
 
@@ -325,6 +487,17 @@
     height: 79vh;
   }
 
+  .menu-pesquisa input {
+    width: 15rem;
+}
+
+.menu-pesquisa {
+  width: 21rem;
+}
+
+.logo-lo {
+  width: 10rem;
+}
 
 
 }
@@ -332,6 +505,7 @@
 @media (max-width: 320px) {
   .menu-cadastro {
     width: 48vh;
+    height: auto;
 }
 
 .menu-cadastro input {
@@ -341,12 +515,67 @@
 .button-cadastro button {
   width: 10rem;
 }
+
+.logo-lo {
+  width: 8rem;
+}
+
+.menu-home a {
+  font-size: 22px;
+}
+
+.home {
+  width: 19rem;
+  height: 32rem;
+}
+
+.imag {
+  width: 6rem;
+}
+
+.icones-home {
+  width: calc(51% - 1rem);
+}
+
+.fundo-player {
+  background-position: -5em;
+}
+
+.menu-pesquisa {
+  width: 17rem;
+  height: 13rem;
+  border-radius: 42px;
+}
+
+.menu-pesquisa input {
+  width: 12rem;
+}
+
+.menu-pesquisa img {
+  width: 2.1rem;
+}
+
+.table {
+  width: 15rem;
+}
+
+.menu-configuracao {
+  width: 18rem;
+  height: 22rem;
+}
+
+.menu-configuracao input {
+  width: 14rem;
+}
+
+
     
 }
 
 @media (max-width: 300px) {
   .menu-cadastro {
     width: 45vh;
+    height: auto;
 }
 
 .menu-cadastro input {
@@ -358,6 +587,18 @@
 
 .menu-home a {
   font-size: 21px;
+}
+
+.home {
+  width: 17rem;
+  height: 33rem;
+}
+
+.menu-home ul {
+  margin-left: -1rem;
+}
+.menu-cadastro input {
+  width: 13rem;
 }
     
 }

@@ -47,7 +47,7 @@ body {
 
 .ind {
   width: 100%;
-  height: 700px;
+  height: 100vh;
   background-size: cover;
   background-image: url(imagens/fundo-principal.webp);
   background-repeat: no-repeat;
@@ -87,10 +87,25 @@ button.btn.btn-dark {
   gap: 5px;
 }  
 
-.icones-home button img{ 
+.logo-lo {
+  width: 13rem;
+}
+
+.imag {
+  width: 10rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 50%;
+}
+
+.imag:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); 
+}
+
+/* .icones-home button img{ 
   width: 150px;
   height: 150px;
-}
+} */
 /* LOGIN */
 
 .sec-login {
@@ -159,17 +174,15 @@ button.btn.btn-dark {
 /* PLAYER */
 .fundo-player {
   width: 100%;
-  height: 700px;
+  height: 100vh;
   background-size: cover;
   background-image: url(imagens/fundo-player.webp);
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }   
-
-.fundo-player {
-  width: 100%;
-  height: 86vh;
-}
 
 .menu-player {
   color:#FFC214;   
@@ -227,8 +240,8 @@ button.btn.btn-dark {
 /* CONFIGURAÇÃO */
 
 .menu-configuracao {
-  width: 300px;
-  height: 280px;
+  width: 26rem;
+  height: 22rem;
   border: 1px;
   border-radius: 10%;
   align-items: center;
@@ -236,17 +249,14 @@ button.btn.btn-dark {
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  margin-left: 580px;
-  margin-top: 50px;
   position: absolute;
-  top: 250px;
-  left: 0;
 }
 
 .menu-configuracao input {
   border-radius: 60px;
   padding: 10px;
   margin-top: 15px;
+  width: 20rem;
 }
 
 .espada-conf {
@@ -266,26 +276,29 @@ button.btn.btn-dark {
   flex-direction: row;
   align-items: center;
 }
+.att {
+  width: 2.5rem;
+}
 
 .button-configuracao button {
-    color: #FFC214; 
-    border-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 90px;
-    margin-top: 30px;
-    padding: 5px;
-    font-family: 'WeissRundgotischW01';
+  color: #FFC214;
+  border-color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: 'WeissRundgotischW01';
+  margin: auto;
+  margin-top: 12px;
+  display: block;
+  height: 3rem;
+  width: 12rem;
+  font-size: 1.5rem;
 }
+
 
 /* RANKING */
 
 .menu-pesquisa {
   position: absolute;
-  bottom: 170px;
-  left: 0; 
-  margin-left: 35%; 
   background-color:rgba(6, 6, 6, 0.703);
   width: 400px;
   height: 200px;
@@ -295,14 +308,19 @@ button.btn.btn-dark {
   align-items: center;  
  flex-direction: column;
 }
+
 .menu-pesquisa input {
 padding: 5px; 
 border-radius: 30px;
+width: 18rem;
 }
 
 .menu-pesquisa img {
-width: 30px; 
-height: 30px;
+width: 2.5rem; 
+}
+
+.table {
+width: 18rem;
 }
 
 /* FOOTER */
@@ -323,4 +341,5 @@ footer {
   background-repeat:  no-repeat;
   background-size: cover; 
   background-position: center;
+  height: 100%;
 }
