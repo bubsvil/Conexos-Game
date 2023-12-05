@@ -14,7 +14,6 @@ function search() {
         var data2 = responses[2].data;
         var data3 = responses[3].data;
 
-        // Aqui você deve manipular os dados conforme necessário e atualizar sua tabela
         updateTable(rankingData, data1, data2, data3);
     })
     .catch(function(error) {
@@ -26,7 +25,6 @@ function updateTable(rankingData, data1, data2, data3) {
     var tableBody = document.getElementById('pesquisa-nickname');
     tableBody.innerHTML = '';
 
-    // Adiciona uma linha para cada jogador
     rankingData.forEach(function (ranking) {
         var newRow = '<tr>';
         newRow += '<td>' + getPontuacaoByJogoId(ranking.jogo.id, data1) + '</td>';
@@ -35,15 +33,12 @@ function updateTable(rankingData, data1, data2, data3) {
         newRow += '</tr>';
         tableBody.innerHTML += newRow;
     });
-
-    // Transpõe a tabela para mostrar a pontuação uma ao lado da outra
     transposeTable('pesquisa-nickname');
 }
 
 function getPontuacaoByJogoId(jogoId, jogoData) {
     var pontuacao = 0;
 
-    // Procura pela pontuação do jogo correspondente no conjunto de dados
     var jogoRanking = jogoData.find(function (ranking) {
         return ranking.jogo.id === jogoId;
     });
@@ -51,7 +46,6 @@ function getPontuacaoByJogoId(jogoId, jogoData) {
     if (jogoRanking) {
         pontuacao = jogoRanking.pontuacao;
     }
-
     return pontuacao;
 }
 
@@ -60,7 +54,6 @@ function transposeTable(tableId) {
     var rows = table.getElementsByTagName('tr');
     var cols = rows[0].getElementsByTagName('td').length;
 
-    // Cria uma nova tabela transposta
     var transposedTable = '<table class="table table-striped table-dark">';
     for (var i = 0; i < cols; i++) {
         transposedTable += '<tr>';
@@ -71,6 +64,5 @@ function transposeTable(tableId) {
     }
     transposedTable += '</table>';
 
-    // Atualiza a tabela original com a transposta
     table.innerHTML = transposedTable;
 }

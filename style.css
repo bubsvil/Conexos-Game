@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/arcade-classic");
+@import url("https://fonts.cdnfonts.com/css/arcade-classic"); 
 
 /*GERAL*/
 * {
@@ -8,6 +8,9 @@
 body {
   margin: 0;
   padding: 0;
+} 
+
+table {
 }
 
 /* HEADER */
@@ -99,14 +102,22 @@ button.btn.btn-dark {
 
 .imag:hover {
   transform: scale(1.1); 
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 0 20px rgba(213, 203, 14, 0) 
 }
 
-/* .icones-home button img{ 
-  width: 150px;
-  height: 150px;
-} */
-/* LOGIN */
+/* FUNDOS */
+.fundo-player {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(imagens/fundo-player.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
 
 .sec-login {
   background-image: url('imagens/fundo-principal.webp');
@@ -120,193 +131,27 @@ button.btn.btn-dark {
   justify-content: center;
 }
 
-.menu-login, .menu-cadastro {
-  width: 38vh;
-  border: 1px;
-  border-radius: 10%;
-}
+/* PESQUISA */
 
-.card-login {
-  display: grid;
-    place-items: center;
-
-}
-
-.img-login {
-  width: 100%;
-  height: 86vh;
-}
-
-.menu-login input, .form-login, .login-user {
-  border-radius: 60px;
-  padding: 10px;
-  margin-top: 15px;
-  width: 36vh;
-}
-
-.button-login button, .button-cadastro button { 
-  color: #FFC214; 
-  border-color: white;
-  display: flex; 
-  justify-content: center;
-  align-items: center;   
-  margin-top: 5px; 
-  padding: 5px;
-  width: 77px;
-  font-family: 'WeissRundgotischW01';
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* CADASTRO */
-
-.menu-cadastro input {
-  border-radius: 60px;
-  padding: 10px;
-  margin-top: 13px;
-  width: 19rem;
-}
-
-.button-cadastro button { 
-   margin-bottom: 10px;
-}
-
-/* PLAYER */
-.fundo-player {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-image: url(imagens/fundo-player.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}   
-
-.menu-player {
-  color:#FFC214;   
-  position: absolute;
-  bottom: 90px;
-  left: 0; 
-  margin-left: 30%;
-  width: 500px;
-  height: 390px;
+#divBusca { 
+  background-color:rgba(6, 6, 6, 0.703);
+  width: 400px;
+  height: 80px; 
   border: 1px;
   border-radius: 60px;
-  display: flex;
-  align-items: center;  
- flex-direction: column;
 }
 
-.body-content {
-  margin-bottom: 1000px;
+.tabela-pesquisa { 
+  margin-top: 20px; 
 }
-
-.configuracao img {
-  width: 40px;
-  height: 30px;
-} 
-
-.estrela {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.flecha {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.configuracao {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.menu-player h2 {
-    color: #F7831A; 
-    font-size: 20px;
-    font-family: 'WeissRundgotischW01';
-} 
-
-.menu-player p {
-    color:#FFC214 ; 
-    font-size: 15px;
-    font-family: sans-serif;
-}
-/* CONFIGURAÇÃO */
-
-.menu-configuracao {
-  width: 26rem;
-  height: 22rem;
-  border: 1px;
-  border-radius: 10%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  position: absolute;
-}
-
-.menu-configuracao input {
-  border-radius: 60px;
-  padding: 10px;
-  margin-top: 15px;
-  width: 20rem;
-}
-
-.espada-conf {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.flecha-conf {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.cadeado-conf {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.att {
-  width: 2.5rem;
-}
-
-.button-configuracao button {
-  color: #FFC214;
-  border-color: white;
-  text-align: center;
-  padding: 5px;
-  font-family: 'WeissRundgotischW01';
-  margin: auto;
-  margin-top: 12px;
-  display: block;
-  height: 3rem;
-  width: 12rem;
-  font-size: 1.5rem;
-}
-
-
-/* RANKING */
 
 .menu-pesquisa {
   position: absolute;
-  background-color:rgba(6, 6, 6, 0.703);
-  width: 400px;
-  height: 200px;
-  border: 1px;
-  border-radius: 60px;
   display: flex;
   align-items: center;  
  flex-direction: column;
+ bottom: 200px;
+  left: 520px;
 }
 
 .menu-pesquisa input {
@@ -332,7 +177,6 @@ footer {
   color: #ffc214;
   width: 100%;
   height: auto;
-  /* position: absolute; */
   bottom: 0;
   left: 0;
 }
