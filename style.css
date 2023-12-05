@@ -10,9 +10,6 @@ body {
   padding: 0;
 } 
 
-table {
-}
-
 /* HEADER */
 
 .menu-home {
@@ -69,7 +66,7 @@ table {
   color: #FFC214;
   position: absolute;
   width: 640px;
-  height: 331px;
+  height: 300px;
   border: 1px;
   border-radius: 58px;
   display: flex;
@@ -102,7 +99,7 @@ button.btn.btn-dark {
 
 .imag:hover {
   transform: scale(1.1); 
-  box-shadow: 0 0 20px rgba(213, 203, 14, 0) 
+  box-shadow: 0 0 20px rgba(218, 210, 50, 0) 
 }
 
 /* FUNDOS */
